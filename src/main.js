@@ -91,7 +91,7 @@ function handleFormSubmit(event) {
 
   fetch("https://example.com/register", {
     method: "POST",
-    mode: "no-cors",
+    // mode: "no-cors",
     body: JSON.stringify(data),
     headers: { "Content-Type": "application/json" },
   })
