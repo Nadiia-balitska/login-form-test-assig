@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/login-form-test-assig/",
     "preview": "vite preview"
   },
   "devDependencies": {
